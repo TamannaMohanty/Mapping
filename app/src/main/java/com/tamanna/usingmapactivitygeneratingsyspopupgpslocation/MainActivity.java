@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         lng_txt = findViewById(R.id.lng_txt);
         progressBar = findViewById(R.id.progressBar);
 
+
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
 
     }

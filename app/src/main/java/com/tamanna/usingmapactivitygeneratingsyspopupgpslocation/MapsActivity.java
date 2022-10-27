@@ -101,7 +101,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng delhi = new LatLng(28.762640, 77.123718);
         mMap.addMarker(new MarkerOptions().position(delhi).snippet("Delhi").title("Marker in Delhi").draggable(false));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(delhi));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(delhi,1f));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(delhi,15f));
 
     }
 }
