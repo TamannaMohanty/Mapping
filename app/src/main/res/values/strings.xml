@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">UsingMapActivitygeneratingsyspopupGPS location</string>
     <string name="get_location">Get Location</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

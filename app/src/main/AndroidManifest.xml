@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.tamanna.usingmapactivitygeneratingsyspopupgpslocation">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -28,7 +32,7 @@
         -->
 
         <meta-data
-            android:name="API_KEY"
+            android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyD0BMOMTACk3EKE1a3EH2uTrSb3_2MrsZA" />
 
         <activity
@@ -39,6 +43,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
